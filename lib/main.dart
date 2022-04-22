@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_app/pages/start_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Recipe App',
       debugShowCheckedModeBanner: false,
-      home: ,
+      theme: ThemeData(),
+      home: const StartScreen(),
     );
   }
 }
