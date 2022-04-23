@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_app/pages/main_screen.dart';
 import 'package:recipe_app/pages/start_screen.dart';
 
 void main() {
