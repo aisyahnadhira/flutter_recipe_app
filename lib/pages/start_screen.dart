@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:slider_button/slider_button.dart';
+import 'package:recipe_app/pages/main_screen.dart';
+import 'package:slide_to_confirm/slide_to_confirm.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({Key? key}) : super(key: key);
@@ -14,7 +15,7 @@ class StartScreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/screen2.png'),
+                image: AssetImage('assets/images/screen4.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -55,32 +56,20 @@ class StartScreen extends StatelessWidget {
         Positioned(
           top: MediaQuery.of(context).size.height * 0.83,
           left: MediaQuery.of(context).size.width * 0.15,
-          child: SliderButton(
-            buttonColor: Colors.white,
-            action: () {
-              Navigator.pushNamed(context, '/home');
-            },
-            label: const Text(
-              'Get Started',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+          child: ConfirmationSlider(
+            width: 250,
+            iconColor: Colors.black12,
+            backgroundColor: Color.fromARGB(255, 253, 108, 24),
+            backgroundColorEnd: Colors.grey[350],
+            foregroundColor: Color.fromARGB(255, 233, 170, 119),
+            text: "\t\t\t\t\t\tGet Started",
+            textStyle: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.w500,
+              color: Colors.white,
             ),
-            icon: Center(
-              child: Icon(
-                Icons.arrow_forward,
-                color: Color.fromARGB(255, 80, 188, 110),
-                size: 34.0,
-              ),
-            ),
-            height: MediaQuery.of(context).size.height * 0.1,
-          width: MediaQuery.of(context).size.width * 0.7,
-            backgroundColor: Color.fromARGB(255, 46, 190, 105),
-            highlightedColor: Color.fromARGB(255, 206, 205, 205),
-            baseColor: Colors.white,
-          ),
-        ),
+            onConfirmation: () => Navigator.push(context, MaterialPageRoute(builder: (context)=> MainScreen())),
+          ))
       ]),
     );
   }
