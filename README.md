@@ -4,10 +4,10 @@ Design Flutter Recipe App inspiration from https://dribbble.com/shots/15921850-R
 
 # Finish Design
 ### Start Screen ###
-<img src = "https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish1.jpg" height= "800" width= "300">
+<img src = "https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish1.jpg" height= "800" width= "400">
 
 ### Main Screen ###
-<img src = "https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish2.jpg" height= "800" width= "300">
+<img src = "https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish2.jpg" height= "800" width= "400">
 
 ### Detail Screen ###
-<img src = "https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish3.jpg" height= "800" width= "300">
+<img src = "https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish3.jpg" height= "800" width= "400">
