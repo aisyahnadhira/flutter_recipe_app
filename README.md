@@ -4,7 +4,7 @@ Design Flutter Recipe App inspiration from https://dribbble.com/shots/15921850-R
 
 # Finish Design
 ### Start Screen ###
-![Start Screen](https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish1.jpg?raw=true)
+![Start Screen](https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish1.jpg | height: 200)
 
 ### Main Screen ###
 ![Main Screen](https://github.com/aisyahnadhira/flutter_recipe_app/blob/master/assets/images/finish/finish2.jpg?raw=true)
