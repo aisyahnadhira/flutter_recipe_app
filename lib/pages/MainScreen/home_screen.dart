@@ -18,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.all(32.0),
           child: Column(
             children: [
+              SizedBox(height: 12),
               Row(
                 children: [
                   Text(
@@ -168,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       left: MediaQuery.of(context).size.width * 0.65,
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.black38,
+                          color: Color.fromARGB(255, 145, 121, 111),
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Padding(
